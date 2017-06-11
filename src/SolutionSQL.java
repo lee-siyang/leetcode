@@ -30,6 +30,7 @@ public class SolutionSQL {
     where Customers.Id not in (select Orders.CustomerID from Orders)
      */
 
+
     /*
     197. Rising Temperature
     select a.Id
