@@ -12,6 +12,7 @@ public class Fizz_Buzz {
         System.out.println(res);
 
     }
+
     public  List<String> fizzBuzz(int n) {
         List<String> res =new ArrayList<String>(n);
         for (int i=1;i<=n;i++){
