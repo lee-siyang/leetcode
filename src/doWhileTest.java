@@ -15,5 +15,6 @@ public class doWhileTest {
 
         }while(inputNum<1 || inputNum >10);
         System.out.print(inputNum);
+
     }
 }
