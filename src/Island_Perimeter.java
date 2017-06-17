@@ -9,20 +9,21 @@ public class Island_Perimeter {
         System.out.println(islandPerimeter(test));
     }
     public static int islandPerimeter(int[][] grid) {
-        int len = grid.length;
+        int row = grid.length;
+        int column = grid[0].length;
         int neighbour = 0;
         int island = 0;
-        for (int i = 0;i<len;i++){
-            for (int j = 0;j<len;j++){
-                if (grid[i][j]==1){
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
+                if (grid[i][j] == 1) {
                     island++;
-                    if(i!=len-1 && grid[i+1][j]==1)
+                    if (i < row - 1 && grid[i + 1][j] == 1)
                         neighbour++;
-                    if(j!=len-1 && grid[i][j+1]==1)
+                    if (j < column - 1 && grid[i][j + 1] == 1)
                         neighbour++;
                 }
             }
         }
-        return 4*island - 2*neighbour;
+        return 4 * island - 2 * neighbour;
     }
 }
