@@ -7,7 +7,7 @@ public class doWhileTest {
     {
         Scanner in=new Scanner(System.in);
         int inputNum=0;
-        //TODO Write code to get a number in the range of 1 to 10
+
         // System.out.print("Enter an integer >=1 and <=10: "); //use this for the prompt
         do{
             System.out.print("Enter an integer >=1 and <=10: ");
