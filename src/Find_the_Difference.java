@@ -10,15 +10,21 @@ public class Find_the_Difference {
         System.out.println(findTheDifference(str1, str2));
     }
     public static char findTheDifference(String s, String t) {
-        boolean found = false;
-        char[] ans = new char[1];
-        for (int i = 0; !found && i<t.length();i++){
-            if (!s.contains(t.substring(i,i+1))){
-                found = true;
-                ans = t.substring(i,i+1).toCharArray();
-            }
+//        boolean found = false;
+//        char[] ans = new char[1];
+//        for (int i = 0; !found && i<t.length();i++){
+//            if (!s.contains(t.substring(i,i+1))){
+//                found = true;
+//                ans = t.substring(i,i+1).toCharArray();
+//            }
+//
+//        }
+//        return ans[0];
 
+        int charIs = t.charAt(t.length()-1);
+        for (int i=0;i<s.length();i++){
+            charIs = charIs + t.charAt(i) - s.charAt(i);
         }
-        return ans[0];
+        return (char)charIs;
     }
 }
