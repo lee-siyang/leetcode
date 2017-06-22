@@ -21,7 +21,7 @@ public class Range_Addition_II {
             return m*n;
 //        int len = ops.length;
         int r=40000;int c=40000;
-        for (int op[]:ops){
+        for (int[] op:ops){
            r = Math.min(r,op[0]);
            c = Math.min(c,op[1]);
         }
