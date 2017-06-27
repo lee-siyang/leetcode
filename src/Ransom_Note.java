@@ -6,7 +6,7 @@
 public class Ransom_Note {
     public static void main(String[] args) {
         String ransomNote = "fihjjjjei";
-
+//        String[] res = new String[10];
         String magazine = "hjibagacbhadfaefdjaeaebgi";
         System.out.println(canConstruct(ransomNote,magazine));
     }
