@@ -20,7 +20,7 @@ public class Ransom_Note {
                 return false;
         }
         return true;
-        //        LOSE
+        //  LOSE
 //        int count=0;
 //        for (int i = 0;i<magazine.length()&& count<ransomNote.length();){
 //            if (ransomNote.contains(magazine.substring(i,i+1))){
