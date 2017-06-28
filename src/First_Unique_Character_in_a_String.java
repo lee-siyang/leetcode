@@ -8,6 +8,7 @@ public class First_Unique_Character_in_a_String {
         String str = "loveleetcode";
         System.out.println(firstUniqChar(str));
     }
+
     public static int firstUniqChar(String s) {
         int[] alpha = new int[26];
         s.toLowerCase();
