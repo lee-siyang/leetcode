@@ -1,7 +1,7 @@
 /**
  * Created by lisiyang on 17/6/27.
  * https://leetcode.com/problems/first-unique-character-in-a-string/#/description
- * 387. First Unique Character in a String
+ * 387. First Unique Character in a Strings
  */
 public class First_Unique_Character_in_a_String {
     public static void main(String[] args) {
