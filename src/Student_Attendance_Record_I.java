@@ -9,6 +9,8 @@ public class Student_Attendance_Record_I {
         System.out.println(checkRecord(s));
     }
     public static boolean checkRecord(String s) {
+//        one line ...T^T
+//        return !s.matches(".*LLL.*|.*A.*A.*");
         if (s==null || s.length()==0)
             return false;
         String slow = s.toLowerCase();
