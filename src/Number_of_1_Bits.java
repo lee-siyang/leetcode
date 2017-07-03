@@ -6,13 +6,6 @@
 public class Number_of_1_Bits {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
-        if ((n&0x80000000)!=0){
-            Integer num=n;
-            return num.bitCount(n);
-        }
-        else {
-            Integer num = n;
-            return num.bitCount(num);
-        }
+        return Integer.bitCount(n);
     }
 }
