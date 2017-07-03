@@ -13,6 +13,6 @@ public class Power_of_Three {
 //            return false;
 //        }
 //        Integer integer=n;
-//        integer.
+
     }
 }
