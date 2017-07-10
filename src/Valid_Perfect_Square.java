@@ -11,6 +11,7 @@ public class Valid_Perfect_Square {
             i+=2;
         }
         return num==0;
+//
 //        if (num<1) return false;
 //        int i=1;
 //        while (i*i<num) i++;
