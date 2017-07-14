@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class Isomorphic_Strings {
     public boolean isIsomorphic(String s, String t) {
-//        char[] charS = s.toCharArray();
+
         Map<Character, Character> mapS = new HashMap<>();
         Map<Character, Character> mapT = new HashMap<>();
 
