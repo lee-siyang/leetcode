@@ -18,8 +18,9 @@ public class Contains_Duplicate_II {
             if (!findSet.add(nums[i])){
                 return true;
             }
-            return false;
+
         }
+        return false;
 //        Map<Integer, Integer> findIJ = new HashMap<>();
 //        for (int i = 0;i<nums.length;i++){
 //            findIJ.put(i,nums[i]);
