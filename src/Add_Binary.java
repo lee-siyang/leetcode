@@ -9,6 +9,7 @@ public class Add_Binary {
         if (b.length()==0||b.isEmpty())return a;
         char[] aNum = a.toCharArray();
         char[] bNum = b.toCharArray();
+
         StringBuilder res = new StringBuilder();
 
         int i = a.length()-1;
