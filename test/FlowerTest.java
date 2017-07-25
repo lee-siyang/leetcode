@@ -9,8 +9,8 @@ public class FlowerTest {
     Can_Place_Flowers flowers = new Can_Place_Flowers();
     @Test
     public void flowersT(){
-        int[] flower = {0,0,0,1,0,0,0,1,0};
-        String s = ""+flowers.canPlaceFlowers(flower,2);
+        int[] flower = {0,0,0,0,1,0,0,0,1,0};
+        String s = ""+flowers.canPlaceFlowers(flower,3);
         assertEquals("true",s);
     }
 }

@@ -24,7 +24,6 @@ public class Can_Place_Flowers {
 //            if (s.length()>0) {
 //                count += Math.max(0, (s.length() - 1) / 2);
 //            }
-//
 //        }
 //        return n == count;
         int count = 1;
