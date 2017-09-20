@@ -16,7 +16,7 @@ public class Relative_Ranks {
             ranks[i][0] = i;
             ranks[i][1] = nums[i];
         }
-        Arrays.sort(ranks, (a, b) -> (b[1] - a[1]));
+        Arrays.sort(ranks, (a, b) -> (a[1]-b[1]));
         for (int i=0;i<nums.length;i++)
             System.out.println(Arrays.toString(ranks[i]));
 
